@@ -1,0 +1,13 @@
+<!--aboutus.wxml-->
+<view class="about">
+<view class="shangbufen">
+<view class="tubiao"><image src="{{image}}" background-size="cover" class="in-tubiao" mode="scaleToFill"> </image></view>
+<view class="biaoti">  {{title}}</view>
+</view>
+
+<view class="zhengwen">{{text}}</view>
+<view class="lianxifangshi">{{lianxifangshi}}</view>
+<view class="xiabufen">
+<view>投稿邮箱：{{email}}</view>
+</view>
+</view>

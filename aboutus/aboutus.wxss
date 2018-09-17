@@ -1,0 +1,9 @@
+/* pages/aboutus/aboutus.wxss */
+.about{ }
+.shangbufen{text-align: center;}
+.tubiao{display: block;width:124px; height:110px;margin: 20px auto 0;  }
+.biaoti{ display:inline block;margin: 20px 0;font-size: 20px; }
+.zhengwen{text-indent: 2em;font-size: 16px;margin: 0 24px;line-height: 2;}
+.lianxifangshi{text-indent: 2em;line-height: 4;}
+.xiabufen{text-indent: 2em;font-size: 14px;line-height: 2;}
+.in-tubiao{width: 124px;height: 110px;}

@@ -1,0 +1,25 @@
+<!--pages/lists1/lists1.wxml-->
+<view class="videopage">
+
+<!--视频列表模板 开始-->
+<template name="yitiaoshipin">
+<navigator url="../../pages/details1/details1?id={{id}}" hover-class="navigator-hover"><!--点击可以进入详情界面-->
+  <view class="left"> <!--将一条分为两部分，左半部分是为封面，右半部分又分为两部分：上部为标题，下部为日期-->
+    <image src="{{image}}" background-size="cover" class="in-tubiao" mode="scaleToFill"></image>
+  </view>
+
+  <view class="right"> <!--右半部-->
+    <view class="title">{{title}}</view> <!--上部为标题，下部为日期-->
+    <view class="date">{{date}}</view>
+  </view>
+  </navigator>
+</template>
+<!--视频列表模板 结束-->
+
+
+<!--循环输出列表  begin-->
+<view wx:for="{{videolist}}" class="list">
+<template is="yitiaoshipin" data="{{...item}}"/>
+</view>
+<!--循环输出列表  end-->
+</view>
